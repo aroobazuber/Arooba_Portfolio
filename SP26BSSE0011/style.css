@@ -1,0 +1,182 @@
+/* Using universal for all*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-color:#e2e8f0;
+    color:#1e293b;
+    line-height:1.6;
+}
+
+header{
+    background-color:#0f172a;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+/* For top nav bar */
+
+nav{
+    background-color:#1e293b;
+    padding:15px;
+}
+
+
+.menu{
+    list-style:none;
+    text-align:center;
+}
+
+.menu li{
+    display:inline-block;
+    margin:10px;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+/* Hover Effect imp */
+
+.menu a:hover{
+    color:#93cee8;
+}
+
+
+main{
+    background-color:white;
+    width:80%;
+    margin:40px auto;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0px 4px 15px rgba(0,0,0,0.1);
+
+    text-align:center;
+}
+
+/* Headings */
+
+h1{
+    font-size:42px;
+}
+
+h2{
+    margin-bottom:20px;
+    color:#0f172a;
+}
+
+/* PROFILE IMAGE */
+
+.profile-img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:5px solid #0f172a;
+
+    margin:20px auto;
+
+    display:block;
+}
+
+/* Para */
+
+p{
+    margin-top:15px;
+    font-size:18px;
+}
+
+/* Buttons */
+
+.btn{
+    display:inline-block;
+    background-color:#0f172a;
+    color:white;
+    padding:12px 20px;
+    margin-top:20px;
+    text-decoration:none;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background-color:#93cee8;
+}
+
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table, th, td{
+    border:1px solid #cbd5e1;
+}
+
+th{
+    background-color:#0f172a;
+    color:white;
+}
+
+th, td{
+    padding:15px;
+    text-align:center;
+}
+
+/* Form */
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    border-radius:10px;
+    border:1px solid #cbd5e1;
+    margin-top:5px;
+}
+
+/* Footer navbar */
+
+.footer-nav{
+    background-color:#0f172a;
+    padding:20px;
+    text-align:center;
+}
+
+.footer-nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+.footer-nav a:hover{
+    color:#38bdf8;
+}
+
+
+footer p{
+    text-align:center;
+    background-color:#1e293b;
+    color:white;
+    padding:15px;
+}
+form{
+    text-align: left;
+}
+
+ul{
+    text-align: left;
+}
